@@ -12,7 +12,6 @@ module.exports = function(config) {
         frameworks: [ 'mocha' ],
 
         files: [
-            'tests.polyfill.js',
             'tests.webpack.js'
         ],
 
