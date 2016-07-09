@@ -11,7 +11,7 @@ import './node_modules/reveal/theme/simple.css';
 import './static/presentation.css';
 
 React_DOM.render(
-    <Presentation>
+    <Presentation className="custom_class">
         <section>Slide 1</section>
         <section>Slide 2</section>
     </Presentation>,
