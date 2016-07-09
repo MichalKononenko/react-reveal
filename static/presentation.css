@@ -1,0 +1,9 @@
+.reveal {
+    width: 75%;
+    height: 400px;
+    left: 12.5%;
+}
+
+.custom_class {
+    background-color: #949494;
+}

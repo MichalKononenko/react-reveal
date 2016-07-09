@@ -6,6 +6,7 @@ import 'reveal/index.css';
 import 'reveal/theme/simple.css';
 
 class Presentation extends React.Component{
+
     componentDidMount(){
         Reveal.initialize({
             history: true,
@@ -17,9 +18,13 @@ class Presentation extends React.Component{
     }
 
     render() {
+        let classname = "reveal " + this.props.className;
+
         return(
-            <div className="slides">
-                {this.props.children}
+            <div className={classname}>
+                <div className="slides">
+                    {this.props.children}
+                </div>
             </div>
         )
     }
