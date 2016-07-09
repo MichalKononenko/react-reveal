@@ -6,6 +6,9 @@ import Presentation from './src/presentation';
 
 
 import './index.html';
+import './node_modules/reveal/index.css';
+import './node_modules/reveal/theme/simple.css';
+import './static/presentation.css';
 
 React_DOM.render(
     <Presentation>

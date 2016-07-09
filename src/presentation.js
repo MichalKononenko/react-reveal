@@ -18,8 +18,10 @@ class Presentation extends React.Component{
 
     render() {
         return(
-            <div className="slides">
-                {this.props.children}
+            <div className="reveal">
+                <div className="slides">
+                    {this.props.children}
+                </div>
             </div>
         )
     }
